@@ -4,6 +4,8 @@ namespace App\Providers;
 
 use Awcodes\Curator\Facades\Curator;
 use Illuminate\Support\ServiceProvider;
+use App\Filament\Resources\MediaResource;
+use Awcodes\Curator\Resources\MediaResource as CuratorMediaResource;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -14,7 +16,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // Curator::acceptedFileTypes(['application/pdf']);
+        Curator::navigationGroup('Media');
+        // $this->app->bind(CuratorMediaResource::class, fn() => new MediaResource());
     }
 
     /**

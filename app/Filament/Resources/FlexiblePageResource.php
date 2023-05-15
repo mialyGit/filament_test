@@ -40,6 +40,8 @@ class FlexiblePageResource extends Resource
 
     protected static ?string $slug = 'pages';
 
+    public static ?string $label = 'Pages';
+
     protected static ?string $navigationIcon = 'heroicon-o-cube-transparent';
 
     public static function form(Form $form): Form
