@@ -4,8 +4,8 @@ namespace App\Providers;
 
 use Awcodes\Curator\Facades\Curator;
 use Illuminate\Support\ServiceProvider;
-use App\Filament\Resources\MediaResource;
-use Awcodes\Curator\Resources\MediaResource as CuratorMediaResource;
+// use App\Filament\Resources\CustomMediaResource;
+// use Awcodes\Curator\Resources\MediaResource;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -16,8 +16,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        Curator::navigationGroup('Media');
-        // $this->app->bind(CuratorMediaResource::class, fn() => new MediaResource());
+        Curator::resourceLabel('Media')->pluralResourceLabel('Medias');
+        // $this->app->bind(MediaResource::class, fn() => new CustomMediaResource());
     }
 
     /**

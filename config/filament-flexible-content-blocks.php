@@ -42,7 +42,7 @@ return [
         CallToActionBlock::class,
         CardsBlock::class,
         TemplateBlock::class,
-        CustomBlock::class
+        // CustomBlock::class
     ],
 
     /*

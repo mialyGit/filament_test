@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a4a60198fcd20cd062bae5d9d5853a9",
+    "content-hash": "22fee3a2fbd7bc52aa40b26e63d36172",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -77,16 +77,16 @@
         },
         {
             "name": "awcodes/filament-curator",
-            "version": "v2.5.7",
+            "version": "v2.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/awcodes/filament-curator.git",
-                "reference": "32c80110ec65745a7339fd4e22e3df878d5586aa"
+                "reference": "573286f443ec5c79f2b48d4108079df26b52bc32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/awcodes/filament-curator/zipball/32c80110ec65745a7339fd4e22e3df878d5586aa",
-                "reference": "32c80110ec65745a7339fd4e22e3df878d5586aa",
+                "url": "https://api.github.com/repos/awcodes/filament-curator/zipball/573286f443ec5c79f2b48d4108079df26b52bc32",
+                "reference": "573286f443ec5c79f2b48d4108079df26b52bc32",
                 "shasum": ""
             },
             "require": {
@@ -153,7 +153,7 @@
             ],
             "support": {
                 "issues": "https://github.com/awcodes/filament-curator/issues",
-                "source": "https://github.com/awcodes/filament-curator/tree/v2.5.7"
+                "source": "https://github.com/awcodes/filament-curator/tree/v2.5.8"
             },
             "funding": [
                 {
@@ -161,7 +161,84 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-05-08T12:50:22+00:00"
+            "time": "2023-05-15T13:04:50+00:00"
+        },
+        {
+            "name": "bezhansalleh/filament-language-switch",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bezhanSalleh/filament-language-switch.git",
+                "reference": "7cc72f3cfd27c31aa92b98a2a30ae19014b3dc13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bezhanSalleh/filament-language-switch/zipball/7cc72f3cfd27c31aa92b98a2a30ae19014b3dc13",
+                "reference": "7cc72f3cfd27c31aa92b98a2a30ae19014b3dc13",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^2.0",
+                "illuminate/contracts": "^8.0|^9.0|^10.0",
+                "php": "^8.0|^8.1|^8.2",
+                "spatie/laravel-package-tools": "^1.9.2"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.0",
+                "nunomaduro/collision": "^6.0",
+                "orchestra/testbench": "^7.0",
+                "pestphp/pest": "^1.21",
+                "pestphp/pest-plugin-laravel": "^1.1",
+                "phpunit/phpunit": "^9.5",
+                "spatie/laravel-ray": "^1.26"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BezhanSalleh\\FilamentLanguageSwitch\\FilamentLanguageSwitchServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BezhanSalleh\\FilamentLanguageSwitch\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bezhan Salleh",
+                    "email": "bezhan_salleh@yahoo.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Zero config Language Switch(Changer/Localizer) plugin for filamentphp admin",
+            "homepage": "https://github.com/bezhansalleh/filament-language-switch",
+            "keywords": [
+                "bezhanSalleh",
+                "filament-language-changer",
+                "filament-language-switch",
+                "filament-locale-changer",
+                "filament-localizer",
+                "filament-plugin",
+                "filamentphp",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/bezhanSalleh/filament-language-switch/issues",
+                "source": "https://github.com/bezhanSalleh/filament-language-switch/tree/1.0.7"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/bezhanSalleh",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-04-17T13:33:21+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -1405,16 +1482,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.6.0",
+            "version": "7.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "733dd89533dd371a0987172727df15f500dab0ef"
+                "reference": "8444a2bacf1960bc6a2b62ed86b8e72e11eebe51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/733dd89533dd371a0987172727df15f500dab0ef",
-                "reference": "733dd89533dd371a0987172727df15f500dab0ef",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/8444a2bacf1960bc6a2b62ed86b8e72e11eebe51",
+                "reference": "8444a2bacf1960bc6a2b62ed86b8e72e11eebe51",
                 "shasum": ""
             },
             "require": {
@@ -1510,7 +1587,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.6.0"
+                "source": "https://github.com/guzzle/guzzle/tree/7.6.1"
             },
             "funding": [
                 {
@@ -1526,7 +1603,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-14T11:23:39+00:00"
+            "time": "2023-05-15T20:43:01+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -5158,16 +5235,16 @@
         },
         {
             "name": "statikbe/laravel-filament-flexible-content-blocks",
-            "version": "v0.1.7",
+            "version": "v0.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statikbe/laravel-filament-flexible-content-blocks.git",
-                "reference": "40b670bc22142e5ea3990bc54eeb5ba75f87bb1f"
+                "reference": "68b46e3050a75c16dc76e31793f4ebcd836f2442"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statikbe/laravel-filament-flexible-content-blocks/zipball/40b670bc22142e5ea3990bc54eeb5ba75f87bb1f",
-                "reference": "40b670bc22142e5ea3990bc54eeb5ba75f87bb1f",
+                "url": "https://api.github.com/repos/statikbe/laravel-filament-flexible-content-blocks/zipball/68b46e3050a75c16dc76e31793f4ebcd836f2442",
+                "reference": "68b46e3050a75c16dc76e31793f4ebcd836f2442",
                 "shasum": ""
             },
             "require": {
@@ -5251,9 +5328,63 @@
             ],
             "support": {
                 "issues": "https://github.com/statikbe/laravel-filament-flexible-content-blocks/issues",
-                "source": "https://github.com/statikbe/laravel-filament-flexible-content-blocks/tree/v0.1.7"
+                "source": "https://github.com/statikbe/laravel-filament-flexible-content-blocks/tree/v0.1.9"
             },
-            "time": "2023-05-12T15:56:00+00:00"
+            "time": "2023-05-15T12:53:17+00:00"
+        },
+        {
+            "name": "stijnvanouplines/blade-country-flags",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stijnvanouplines/blade-country-flags.git",
+                "reference": "1b7d5a67d25643f70b939582f6b56c54f12070f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stijnvanouplines/blade-country-flags/zipball/1b7d5a67d25643f70b939582f6b56c54f12070f3",
+                "reference": "1b7d5a67d25643f70b939582f6b56c54f12070f3",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "illuminate/support": "^8.0|^9.0|^10.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.18|^8.0",
+                "pestphp/pest": "^1.4",
+                "spatie/pest-plugin-snapshots": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "StijnVanouplines\\BladeCountryFlags\\BladeCountryFlagsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "StijnVanouplines\\BladeCountryFlags\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A package to easily make use of country flags in your Laravel Blade views.",
+            "homepage": "https://github.com/stijnvanouplines/blade-country-flags",
+            "keywords": [
+                "blade",
+                "country flags",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/stijnvanouplines/blade-country-flags/issues",
+                "source": "https://github.com/stijnvanouplines/blade-country-flags/tree/1.0.3"
+            },
+            "time": "2023-02-27T08:59:37+00:00"
         },
         {
             "name": "symfony/console",
